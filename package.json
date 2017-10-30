@@ -2,13 +2,16 @@
   "name": "demo_server",
   "version": "1.0.0",
   "description": "Server demo per app con Electron",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "example": "examples",
     "test": "test"
   },
   "dependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "knex": "^0.13.0",
+    "pg": "^7.3.0",
+    "socket.io": "^2.0.4"
   },
   "devDependencies": {
     "mocha": "^4.0.1"
